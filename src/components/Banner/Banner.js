@@ -7,7 +7,7 @@ function Banner({ gameStatus, guessCount, answer }) {
     return (
       <div className="happy banner">
         <p>
-          <strong>Congratulations!</strong> Got it in
+          <strong>Congratulations!</strong> Got it in{" "}
           <strong>{guessCount} guesses</strong>.
         </p>
       </div>
